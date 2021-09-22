@@ -1,0 +1,89 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+.upper {
+  display: flex;
+  width: 100%;
+  height: 534px;
+}
+.left {
+  background-image: url(./images/desktop-image-hero-1.jpg);
+  background-repeat: none;
+  width: 60%;
+}
+.navbar {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-decoration-style: none;
+  text-underline-position: none;
+}
+.navbara:hover {
+  text-decoration: underline;
+}
+
+p {
+  opacity: 50%;
+}
+.right {
+  width: 40%;
+  text-align: start;
+  padding: 0px;
+}
+.shop {
+  border: none;
+}
+.shop:hover {
+  opacity: 50%;
+}
+.aa {
+  text-align: start;
+  padding: 0px 0px 0px 70px;
+}
+.btn {
+  margin-top: 209px;
+  margin-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous:hover {
+  opacity: 50%;
+}
+.next:hover {
+  opacity: 50%;
+}
+
+.previous {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.next {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-left: -9px;
+}
+
+.lower {
+  display: flex;
+}
+.second {
+  padding: 20px;
+}

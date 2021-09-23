@@ -1,6 +1,11 @@
 * {
   font-family: "Courier New", Courier, monospace;
 }
+.outer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .upper {
   display: flex;
   width: 100%;
@@ -44,7 +49,7 @@ p {
 .shop:hover {
   opacity: 50%;
 }
-.aa {
+.intro {
   text-align: start;
   padding: 0px 0px 0px 70px;
 }
@@ -86,4 +91,62 @@ a {
 }
 .second {
   padding: 20px;
+}
+@media screen and (max-width: 375px) {
+  .outer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .upper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .room {
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+  .navbara {
+    display: none;
+  }
+  .left {
+    background-image: url(./images/desktop-image-hero-1.jpg);
+    background-size: 400px 300px;
+    background-repeat: none;
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    display: none;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 160px;
+  }
+  .img {
+    align-items: center;
+    height: 370px;
+    width: 400px;
+  }
 }
